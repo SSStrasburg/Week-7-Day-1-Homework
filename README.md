@@ -1,8 +1,9 @@
+This file is used for academic purposes only. The purpose of this assignment is to utilize angular and to utilize data, controllers, and UI for an potential shop owner.
 
+General notes:
 
 jshintrc file
 don't have to use grunt but can
-
 
 Shop inventory system
 
@@ -24,3 +25,5 @@ if discount show img
 
 
 property on controller to change $ and names
+
+jQuerry to navigate the DOM
