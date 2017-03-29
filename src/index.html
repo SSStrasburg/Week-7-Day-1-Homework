@@ -35,7 +35,7 @@
             <td>{{item.name}}</td>
             <td>{{item.price}}</td>
             <td><img src = 'sale.png' ng-show='item.discount > 0'></td>
-            <td>{{invCtrl.getPostSalePrice(item)}}</td>
+            <td>{{invCtrl.getPostSalePrice(item) | currency:'$'}}</td>
             <td>{{item.quantity}}</td>
             <td>{{item.color}}</td>
         </tr>
